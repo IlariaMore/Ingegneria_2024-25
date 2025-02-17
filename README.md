@@ -4,4 +4,4 @@ Progetto di Ingegneria del Software 2024-2025
 
 - Ilaria Morettini (IlariaMore)
 - Erika Aguiari    (erik-agu)
-- Luca Barchiesi
+- Luca Barchiesi   (Barchio03)
