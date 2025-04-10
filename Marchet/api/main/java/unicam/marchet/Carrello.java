@@ -2,8 +2,12 @@ public class Carrello {
 
   private ArrayList<Prodotto> list;
 
-  public Prodotto addProdotto();
+  public Carrello() {
+    list = new ArrayList<>();
+  }
 
-  public void deleteProdotto(Prodotto p);
+  public void addProdotto(Prodotto p) {list.add(p)}
+
+  public void deleteProdotto(Prodotto p) {list.remove(p)}
   
 }
