@@ -1,4 +1,4 @@
 public interface IEntertainer implements IUser{
-  void createEvent()
+  void createEvent(String name, )
   
 }
