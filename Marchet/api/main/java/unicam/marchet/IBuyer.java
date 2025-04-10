@@ -1,4 +1,7 @@
-puplic interface IBuyer implements IUser{
+/*
+This is the interface for the buyer
+*/
+public interface IBuyer implements IUser{
   private Kart kart;
   private Market market;
   
