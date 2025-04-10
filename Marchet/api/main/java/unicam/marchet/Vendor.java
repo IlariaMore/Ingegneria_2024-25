@@ -1,4 +1,4 @@
-public class Vendor{
+public class IVendor{
   private String coordinates;
   
 /* @return the location of the vendor, alternative to OSM */
