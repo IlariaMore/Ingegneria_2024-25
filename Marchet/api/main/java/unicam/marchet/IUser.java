@@ -1,4 +1,3 @@
-
 /**
 *
 * This interface is implemented by the generic user.
