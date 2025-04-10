@@ -1,5 +1,6 @@
 puplic interface IBuyer implements IUser{
   private Kart kart;
+  private Market market;
   
   void selectProduct(); //mette nel carrello
   boolean buy(); //compra direttamente
