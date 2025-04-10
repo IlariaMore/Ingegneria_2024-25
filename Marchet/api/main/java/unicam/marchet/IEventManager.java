@@ -1,3 +1,3 @@
-public interface IEventManager{
+public interface IEventManager implements IEvent{
   
 }
