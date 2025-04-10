@@ -1,0 +1,2 @@
+puplic interface IBuyer{
+}
