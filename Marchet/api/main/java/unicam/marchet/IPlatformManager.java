@@ -1,5 +1,5 @@
-public interface IPlatformManager{
-
+public interface IPlatformManager implements IUser{
+    
 
 
 }
