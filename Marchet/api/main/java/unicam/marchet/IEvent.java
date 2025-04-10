@@ -1,3 +1,3 @@
-public interface IEvent{
+public interface IEvent{ //forse da suddividere tra event e fair
   
 }
