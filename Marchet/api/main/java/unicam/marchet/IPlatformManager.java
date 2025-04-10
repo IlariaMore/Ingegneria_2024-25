@@ -1,6 +1,6 @@
 /**
 *
-* This interface must be implemented by the class who manages the platform
+* This interface is implemented by the class who manages the platform
 *
 * @author Ilaria Morettini, Erika Aguiari, Luca Barchiesi
 */
