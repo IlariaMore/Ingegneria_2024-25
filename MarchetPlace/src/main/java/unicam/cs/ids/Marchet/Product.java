@@ -1,31 +1,37 @@
-/**/
+
+/**
+*
+* This class represents a product.
+*
+* @author Erika Aguiari, Ilaria Morettini, Luca Barchiesi
+*
+*/
 public abstract class Product implements Visitable{
 
-    /**/
     private String name;
 
-    /**/
     private float price;
 
-    /**/
     private String description;
 
-    /**/
     private String distributorDescription;
 
-    /**/
     private int stockNumber;
 
-    /**/
     private Seller creator;
 
-    /**/
     private int id;
 
-    /**/
     private static int currentId;
 
-    /**/
+    
+    /**
+    *
+    * This method creates an object Product.
+    *
+    * @return an object Product.
+    *
+    */
     public Product() {};
 
     private static int getCurrentId() {
