@@ -1,5 +1,12 @@
 import java.util.ArrayList;
 
+/**
+*
+* This class represents an event.
+*
+* @author Erika Aguiari, Ilaria Morettini, Luca Barchiesi
+*
+*/
 public class Event implements Visitable{
 
     private String name;
@@ -18,6 +25,7 @@ public class Event implements Visitable{
 
     public Event(){}
 
+    
     private static int getCurrentId() {
         return currentId;
     }
@@ -63,10 +71,28 @@ public class Event implements Visitable{
         this.collaborators = collaborators;
     }
 
+    /**
+    *
+    * This method is used by a buyer to subscribe to an event.
+    *
+    * @param buyer, the buyer who wants to subscribe to an event.
+    *
+    * @return @true if the operation ended successfully, false otherwise.
+    *
+    */
     public boolean subscribe(Buyer buyer) {
         return false;
     }
 
+    /**
+    *
+    * This method is used by a buyer to unsubscribe to an event.
+    *
+    * @param buyer, the buyer who wants to unsubscribe to an event.
+    *
+    * @return true if the operation ended successfully, false otherwise.
+    *
+    */
     public boolean unsubscribe(Buyer buyer) {
         return false;
     }
