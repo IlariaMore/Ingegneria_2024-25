@@ -1,6 +1,14 @@
 import javax.swing.text.html.HTML;
 import java.util.ArrayList;
 
+
+/**
+*
+* This class is used to represent a seller.
+*
+* @author Erika Aguiari, Ilaria Morettini, Luca Barchiesi
+*
+*/
 public class Seller {
 
     private String name;
@@ -15,6 +23,14 @@ public class Seller {
 
     private static int currentId;
 
+    
+    /**
+    *
+    * This method creates an object Seller.
+    *
+    * @return an object Seller.
+    *
+    */
     public Seller() {}
 
     private static int getCurrentId() {
@@ -53,10 +69,25 @@ public class Seller {
         return id;
     }
 
+    
+    /**
+    *
+    * This method is used to add a product to the marketplace.
+    *
+    * @return true if the product is added successfully, false otherwise.
+    *
+    */
     public boolean addProduct() {
         return false;
     }
 
+    /**
+    *
+    * This method is used to remove a product from the marketplace.
+    *
+    * @return true if the product is removed successfully, false otherwise.
+    *
+    */
     public boolean removeProduct() {
         return false;
     }
