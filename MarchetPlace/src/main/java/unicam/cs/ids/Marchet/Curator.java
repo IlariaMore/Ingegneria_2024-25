@@ -1,7 +1,17 @@
 public class Curator {
+    
     private RequestHandler requestHandler;
 
-    public Curator(){}
+    public Curator(RequestHandler requestHandler) {
+        this.requestHandler = requestHandler;
+    }
 
-    public void check() {}
+    public void check(Visitable curated) {
+        curated.accept(new OpenVisitor());
+        if (isGood) {
+            curated.accept(new AcceptVisitor());
+        } else {
+            curated.accept(new DenyVisitor());
+        }
+    }
 }
