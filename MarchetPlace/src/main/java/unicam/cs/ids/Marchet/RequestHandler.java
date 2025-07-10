@@ -6,21 +6,24 @@ public class RequestHandler {
 
     private ArrayList<Event> eventRequests;
 
-    public RequestHandler() {}
+    public RequestHandler() {
+        this.productRequests = new ArrayList<Product>();
+        this.eventRequests = new ArrayList<Event>();
+    }
 
     public boolean addProduct(Product product) {
-        return false;
+        return productRequests.add(product);
     }
 
     public boolean removeProduct(Product product){
-        return false;
+        return productRequests.remove(product);
     }
 
     public boolean addEvent(Event event) {
-        return false;
+        return eventRequests.add(event);
     }
 
     public boolean removeEvent(Event event){
-        return false;
+        return eventRequests.remove(event);
     }
 }
