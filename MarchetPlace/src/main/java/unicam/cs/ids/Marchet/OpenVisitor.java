@@ -4,11 +4,11 @@ public class OpenVisitor implements Visitor {
 
     @Override
     public void visit(Product product) {
-
+        product.toString()
     }
 
     @Override
     public void visit(Event event) {
-
+        event.toString();
     }
 }
